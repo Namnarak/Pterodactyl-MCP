@@ -1,6 +1,6 @@
-# @namnarak/pterodactyl-mcp
+# @namkrub/pterodactyl-mcp
 
-[![npm version](https://img.shields.io/npm/v/@namnarak/pterodactyl-mcp)](https://www.npmjs.com/package/@namnarak/pterodactyl-mcp)
+[![npm version](https://img.shields.io/npm/v/@namkrub/pterodactyl-mcp)](https://www.npmjs.com/package/@namkrub/pterodactyl-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D22-green)](https://nodejs.org/)
 
@@ -28,7 +28,7 @@ This fork is based on `@zefarie/pterodactyl-mcp` and adds compatibility changes 
 ## Quick Start
 
 ```bash
-npx @namnarak/pterodactyl-mcp
+npx @namkrub/pterodactyl-mcp
 ```
 
 ## Configuration
@@ -56,7 +56,7 @@ Tools include power control, console commands, file management, backups, schedul
   "mcpServers": {
     "pterodactyl": {
       "command": "npx",
-      "args": ["-y", "@namnarak/pterodactyl-mcp"],
+      "args": ["-y", "@namkrub/pterodactyl-mcp"],
       "env": {
         "PTERODACTYL_URL": "https://panel.example.com",
         "PTERODACTYL_CLIENT_KEY": "ptlc_xxxxxxxxxxxxx"
@@ -73,7 +73,7 @@ Legacy Python-style env also works for client-only mode:
   "mcpServers": {
     "pterodactyl": {
       "command": "npx",
-      "args": ["-y", "@namnarak/pterodactyl-mcp"],
+      "args": ["-y", "@namkrub/pterodactyl-mcp"],
       "env": {
         "PTERO_URL": "https://panel.example.com",
         "PTERO_KEY": "ptlc_xxxxxxxxxxxxx"
@@ -94,7 +94,7 @@ Tools include listing/managing servers, users, nodes, eggs, nests, allocations, 
   "mcpServers": {
     "pterodactyl": {
       "command": "npx",
-      "args": ["-y", "@namnarak/pterodactyl-mcp"],
+      "args": ["-y", "@namkrub/pterodactyl-mcp"],
       "env": {
         "PTERODACTYL_URL": "https://panel.example.com",
         "PTERODACTYL_APP_KEY": "ptla_xxxxxxxxxxxxx"
@@ -113,7 +113,7 @@ Use this for the full toolset.
   "mcpServers": {
     "pterodactyl": {
       "command": "npx",
-      "args": ["-y", "@namnarak/pterodactyl-mcp"],
+      "args": ["-y", "@namkrub/pterodactyl-mcp"],
       "env": {
         "PTERODACTYL_URL": "https://panel.example.com",
         "PTERODACTYL_APP_KEY": "ptla_xxxxxxxxxxxxx",

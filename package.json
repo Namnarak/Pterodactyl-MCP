@@ -1,5 +1,5 @@
 {
-  "name": "@namnarak/pterodactyl-mcp",
+  "name": "@namkrub/pterodactyl-mcp",
   "version": "0.1.0",
   "description": "Client-key friendly MCP server for Pterodactyl Panel, based on @zefarie/pterodactyl-mcp",
   "type": "module",

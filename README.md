@@ -277,3 +277,4 @@ Contributions are welcome! Please make sure `pnpm lint`, `pnpm typecheck`, and `
 ## License
 
 MIT
+# Pterodactyl-MCP

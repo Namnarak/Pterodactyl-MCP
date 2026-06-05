@@ -1,0 +1,55 @@
+{
+  "name": "@namnarak/pterodactyl-mcp",
+  "version": "0.1.0",
+  "description": "Client-key friendly MCP server for Pterodactyl Panel, based on @zefarie/pterodactyl-mcp",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "pterodactyl-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node dist/index.js",
+    "prepublishOnly": "node -e \"const fs=require('fs'); if(!fs.existsSync('dist/index.js')) process.exit(1)\""
+  },
+  "keywords": [
+    "mcp",
+    "pterodactyl",
+    "model-context-protocol",
+    "game-server",
+    "server-management",
+    "llm",
+    "ai",
+    "claude",
+    "minecraft"
+  ],
+  "author": "Namnarak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namnarak/Pterodactyl-MCP"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "agents": "^0.7.6",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.7",
+    "@types/node": "^25.5.0",
+    "@vitest/coverage-v8": "^4.1.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0",
+    "wrangler": "^4.73.0"
+  }
+}

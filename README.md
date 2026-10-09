@@ -1,4 +1,18 @@
-# @namkrub/pterodactyl-mcp
+<!-- CYTECH_README_REFRESH:START -->
+<div align="center">
+
+<a href="https://github.com/Namnarak/Pterodactyl-MCP"><img width="100%" alt="Pterodactyl MCP banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=210&section=header&text=Pterodactyl%20MCP&fontSize=43&fontColor=ffffff&fontAlignY=36&desc=Manage%20game%20servers%20through%20MCP&descAlignY=59&descSize=16"></a>
+
+<img alt="PROJECT: MCP Server" src="https://img.shields.io/badge/PROJECT-MCP%20Server-2563EB?style=flat-square&labelColor=0F172A"> <img alt="STACK: Node.js · TypeScript" src="https://img.shields.io/badge/STACK-Node.js%20%C2%B7%20TypeScript-2563EB?style=flat-square&labelColor=0F172A">
+
+<p><strong>Manage game servers through MCP</strong></p>
+
+<a href="https://github.com/Namnarak/Pterodactyl-MCP/releases">Releases</a> · <a href="https://github.com/Namnarak/Pterodactyl-MCP/issues">Issues</a> · <a href="https://github.com/Namnarak/Pterodactyl-MCP">Source</a>
+
+</div>
+<!-- CYTECH_README_REFRESH:END -->
+
+---
 
 [![npm version](https://img.shields.io/npm/v/@namkrub/pterodactyl-mcp)](https://www.npmjs.com/package/@namkrub/pterodactyl-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
